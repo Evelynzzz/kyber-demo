@@ -7,7 +7,7 @@ npm-debug.log*
 node_modules/
 
 # Transpiled files
-static/bundles/
+html/static/bundles/
 webpack-stats-*.json
 
 # VS Code
