@@ -6,11 +6,9 @@ npm-debug.log*
 # Dependencies
 node_modules/
 
-# Coverage
-coverage
-
 # Transpiled files
-build/
+static/bundles/
+webpack-stats-*.json
 
 # VS Code
 .vscode
