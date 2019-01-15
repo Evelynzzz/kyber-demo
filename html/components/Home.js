@@ -90,7 +90,7 @@ export default class Home extends React.Component {
         ####################################
         */
         if(!isTokenEnabled){
-          let enableTokenDetails = await this.getEnableTokenDetails(this.state.USER_ACCOUNT, this.TOKEN_ADDRESS, this.TOKEN_ADDRESS, this.state.GAS_PRICE)
+          let enableTokenDetails = await this.getEnableTokenDetails(this.state.USER_ACCOUNT, this.TOKEN_ADDRESS, this.state.GAS_PRICE)
           // Extract the raw transaction details
           let rawTx = enableTokenDetails.data
           // Create a new transaction
