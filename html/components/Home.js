@@ -333,7 +333,7 @@ export default class Home extends React.Component {
     let enableTokenDetails = await enableTokenDetailsRequest.json()
     console.log('enableTokenDetails:')
     console.log(enableTokenDetails)
-    return enabletokenDetails
+    return enableTokenDetails
   }
 
   /**
