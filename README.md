@@ -30,3 +30,5 @@ npm install
 - `pack_run.sh`: used to build bundles for production mode.
 - `server.js`: used to start Webpack dev server for development mode
 - `webpack.config.*.js`: configuration files of Webpack
+  
+Be careful!This is just a demo.
